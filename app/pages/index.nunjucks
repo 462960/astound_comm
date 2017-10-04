@@ -1,0 +1,9 @@
+{% extends "layout.nunjucks" %}
+<!-- Item -->
+{% block item %}
+{% include "partials/part-item.nunjucks" %}
+{% endblock %}
+
+{% block gallery %}
+{% include "partials/part-slider.nunjucks" %}
+{% endblock %}

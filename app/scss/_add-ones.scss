@@ -1,0 +1,152 @@
+
+/*---------------------- Susy Grid maps---------------------- */
+
+$susy:(
+
+/* global-box-sizing: border-box, */ 
+  debug:(image:show),
+  columns: 6,
+  gutters: .25
+);
+
+$social-row: (
+math: static,
+container: auto,
+column-width: 43px,
+gutters: (28 / 43),
+columns: 5
+);
+
+$about-us-s: (
+columns: 2,
+gutters: (15 / 165),
+);
+
+$about-us-l: (
+columns: 4,
+gutters: (38 / 255),
+);
+
+$popUp-l: (
+  output: isolate,
+  columns: 1 1.95,
+  math: statis,
+  container: auto,
+  gutters: 0,
+  column-width: 330px
+  );
+
+$choose: (
+  columns: 3,
+  gutters: (38 / 352),
+  );
+
+$vacancy: (
+  columns: 2,
+  gutters: (37 / 548),
+  );
+
+$vac-pagination: (
+  math: static,
+  container: auto,
+  columns: 3,
+  gutters: (30 / 64),
+  column-width: 64px
+  );
+
+$asummetric: (
+output: isolate,
+columns: 2.2 1 3.4 1.3,    /* total 4 columns */ 
+gutters: (10 / 20),   /* in case 20px is a base (unit of 1) and gutter 10px */
+column-width: 20px,  /* Sets up max-width. It is absent in case of fluid + .wrap {max-width: 100%;} */ 
+);
+
+
+
+/*------------------- Border box model------------------- */
+
+ /*  @include border-box-sizing;  */    
+
+/*------------------------ Mixins------------------------ */
+
+@mixin cf {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+/* Button-border styles */
+/* @mixin button-border($color-and-border, $color-hover, $background-hover) {
+font-family: "Helvetica";
+font-size: 22px;
+color: $color-and-border;
+border: $color-and-border solid 3px;
+text-align: center;
+transition: all .7s;
+display: block;
+padding: 19px 0;
+margin: 0 auto;
+&:hover {
+  transition: all .7s;
+  color: $color-hover;
+  background: $background-hover;
+}
+ &:active {
+  transition: all .7s;
+  color: #23ba85;
+  background: #e7e7e7;
+ }
+} */
+/* Button-menu styles */
+ @mixin button($color, $border-color) {
+    font-size: 16px;
+    margin-right: 55px;
+    color: $color;
+    font-family: "Helvetica";
+    padding: 2px 0;
+    &:last-child {margin-right: 0;}
+    &:hover {
+  border-bottom: $border-color solid 2px ;
+  transition: all .4s;
+    }
+}
+ 
+/*------------------ Variables------------------ */
+$min-w: 365px;
+
+/* Breakpoints */
+$bp-small: 320px;
+$bp-small-plus: 500px;
+$bp-tablet: 765px;
+$bp-desktop: 835px;
+
+
+/* All about ON and OFF blocks depending on Small, Medium or Large layout */
+
+.s-out,.sm-out,.sl-out  {
+  display: none;
+}
+
+.ml-out, .l-out {
+  display: block;
+}
+
+   @media (min-width: $bp-small-plus) and (max-width: $bp-tablet){ 
+ .s-out,.l-out,.sl-out {
+  display: block;
+ }
+ .m-out,.sm-out,.ml-out {
+  display: none;
+ } } 
+
+  @media (min-width: $bp-tablet) { 
+  .s-out,.m-out,.sm-out {
+ display: block;
+}
+.l-out,.sl-out,.ml-out {
+ display: none;
+} } 
+
+/*---------------------- The end of ON and OFF blocks---------------------- */
+
