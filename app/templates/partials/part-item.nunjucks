@@ -48,8 +48,19 @@
 			</ul>
 			<h6 class="details sl-out">details:</h6>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie velit vitae metus tempus, ultricies facilisis ligula maximus. Etiam ultricies purus massa, sit amet vulputate nisi malesuada quis. Proin eu nunc non sem malesuada imperdiet quis nec nisl. Donec at laoreet nisl, ac ullamcorper metus.</p>
-			<h6 class="size l-out">Select a size</h6>
+			<h6 class="size l-out">Select a size:</h6>
+
+  <fieldset class="sizes">
+    <h6 class="size-l">size:</h6>
+    <input type="radio" id="size_XS" name="rating" value="xs" /><label for="size_XS" title="Size XS"></label>
+    <input type="radio" id="size_S" name="rating" value="s" /><label for="size_S" title="Size S"></label>
+    <input type="radio" id="size_M" name="rating" value="m" checked/><label for="size_M" title="Size M"></label>
+    <input type="radio" id="size_L" name="rating" value="l" /><label for="size_L" title="Size L"></label>
+  </fieldset>
+
+
 			<button type="submit">add to cart</button>
 		</form>
 	</div>
+	<h6 class="like">You may also like</h6>
 </div>
