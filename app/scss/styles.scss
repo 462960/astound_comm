@@ -10,7 +10,6 @@ body {
   font-size: 12px;
   color: #272727;
   background: #f6f6f6;
-/* font-family: 'Oswald', sans-serif; */
 }
 .wrapper {
   max-width: 835px;
@@ -44,16 +43,14 @@ h2 {
     }
      @media (min-width: $bp-tablet){
       padding: 0 0 20px;
-      margin-top: -9px;
+      margin-top: -7px;
     }
   }
    .social-row {
-  /* @media (min-width: $bp-small-plus){
-     display: none;
-   } */
-   width: 235px;
+   width: 260px;
    margin: 30px 0;
  li {
+  margin-right: 6px;
   display: inline-block;
    &:last-child {margin-right: 0;}
  }
@@ -105,7 +102,7 @@ ul.social {
 }
 
 .item-description-wrapper {
-  border: 1px solid red;
+ /*  border: 1px solid red; */
   width:320px;
   margin: 0 auto;
   @media (min-width: $bp-small-plus){
@@ -115,6 +112,9 @@ ul.social {
   .item-num {
     color: #7d7f85;
     margin-top: 14px;
+    @media (min-width: $bp-small-plus){
+      margin-top: 0;
+    }
   }
   .price-holder {
     font-size: 36px;
@@ -144,10 +144,10 @@ ul.social {
 
   button {
     background: #89e5cf;
-    padding: 20px 70px;
+    padding: 20px 0;
     border-radius: 129px;
     margin: 0 auto;
-    width: 80%;
+    width: 280px;
     display: block;
     text-align: center;
     border: 0;
@@ -155,6 +155,11 @@ ul.social {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
+    &:focus {border: none;}
+    @media (min-width: $bp-small-plus){
+      margin: 0;
+      width: 240px;
+    }
   }
 }
 /* --Share block-- */
@@ -175,10 +180,10 @@ ul.social {
   cursor: default;
   top: 35px;
   left: -93px;
-  border: 1px solid red;
-   opacity: 0;  
+  opacity: 0;  
   transition: opacity 1s;
-  display: none;  
+  transform:translate(9999px);
+
   width: 290px;
   height: 105px;
   background: #fff;
@@ -194,13 +199,26 @@ ul.social {
     transform: rotate(-45deg);
     box-shadow: 3px -3px 4px -1px rgba(0,0,0,0.75);
   }
-  .social-center{margin: 0 auto;}
+  .share-with {
+    margin: 10px 15px;
+  }
+  #share-close {
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    cursor: pointer;
+    top: 15px;
+    right: 15px;
+    background-image: url(../img/sprite.png);
+    background-position: -171px -42px;
+  }
+  .social-center{margin: 0 15px;}
 }  
 }
 .show-block {
   opacity: 1 !important;
-  display: block !important;
-   transition: opacity 1s; 
+  transform:translate(0) !important; 
+  transition: opacity 1s;
 }
 /* Star raiting */
 
@@ -211,8 +229,6 @@ ul.social {
     padding-left: 0;
     &:not(:checked) {
       & > input {
-       /*  position: absolute;
-       top: -9999px; */
        display: none;
        clip: rect(0,0,0,0);
       }
@@ -251,26 +267,29 @@ ul.social {
       }    
     }    
 
-   /*  & > label:active {
-     position: relative;
-     top: 2px;
-   } */
   }
 /* Select Size */
 
   fieldset.sizes {
-    margin: 50px auto;
+    margin: 25px auto;
     border: none;
     width: 240px; 
     padding: 0;
     h6.size-l {
       display: none;
     }
+    @media (min-width: $bp-small-plus){
+      margin: 0 0 20px;
+    }
      @media(min-width: $bp-tablet) {
        width: 280px;
       h6.size-l {
         display: inline-block;
         text-transform: uppercase;
+        vertical-align: top;
+        margin: 10px 20px 0 0;
+        font-size: 14px;
+        font-weight: bold;
         }      
     }
     
@@ -283,7 +302,7 @@ ul.social {
        label {
         display: inline-block;
         cursor: pointer;
-        margin-right: 19px;
+        margin-right: 10px;
          &:last-child {
            margin: 0;
          }
@@ -346,7 +365,7 @@ h6.like {
 }
 .cycle-prev,.cycle-next  {
     position: absolute;
-    display: block !important;
+    /* display: block !important; */
     cursor: pointer;
     width: 30px;
     height: 30px;
@@ -363,12 +382,12 @@ h6.like {
     }
   }
   .cycle-next {
-    right: -35px;
+    right: -10px;
     &:before {transform: rotate(-45deg); bottom: 6px;}
     &:after {transform: rotate(45deg); }
   }
   .cycle-prev {
-    left: -35px;
+    left: -10px;
     &:before {transform: rotate(45deg); bottom: 6px;}
     &:after {transform: rotate(-45deg); }
   }

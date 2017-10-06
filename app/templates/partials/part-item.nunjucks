@@ -62,5 +62,6 @@
 			<button type="submit">add to cart</button>
 		</form>
 	</div>
-	<h6 class="like">You may also like</h6>
+	
 </div>
+<h6 class="like">You may also like</h6>
