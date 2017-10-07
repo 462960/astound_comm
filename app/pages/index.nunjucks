@@ -5,5 +5,5 @@
 {% endblock %}
 
 {% block gallery %}
-{% include "partials/part-slider.nunjucks" %}
+{% include "partials/part-slider-gallery.nunjucks" %}
 {% endblock %}

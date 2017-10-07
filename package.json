@@ -26,7 +26,6 @@
     "gulp-uncss": "^1.0.6",
     "gulp-useref": "^3.1.2",
     "gulp.spritesmith": "^6.5.1",
-    "run-sequence": "^2.1.0",
-    "susy": "^3.0.1"
+    "run-sequence": "^2.1.0"
   }
 }

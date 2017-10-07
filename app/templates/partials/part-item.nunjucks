@@ -13,7 +13,7 @@
 	<div class="item-description-wrapper">
 		<h4 class="slogan sm-out">For gamers by gamers tee</h4>
 		<div class="item-num">Item #: 701642853695</div>
-		<h5 class="price-holder">$<span>29.50</span> <span>$19.99</span></h5>
+		<h5 class="price-holder">$<span class="line-through">29.50</span> <span class="red">$19.99</span></h5>
 		<form action="post" class="to_cart">
 		<div>
 			<fieldset class="stars">
@@ -52,10 +52,10 @@
 
   <fieldset class="sizes">
     <h6 class="size-l">size:</h6>
-    <input type="radio" id="size_XS" name="rating" value="xs" /><label for="size_XS" title="Size XS"></label>
-    <input type="radio" id="size_S" name="rating" value="s" /><label for="size_S" title="Size S"></label>
-    <input type="radio" id="size_M" name="rating" value="m" checked/><label for="size_M" title="Size M"></label>
-    <input type="radio" id="size_L" name="rating" value="l" /><label for="size_L" title="Size L"></label>
+    <input class="size-input" type="radio" id="size_XS" name="sizing" value="xs" /><label for="size_XS" title="Size XS"></label>
+    <input class="size-input" type="radio" id="size_S" name="sizing" value="s" /><label for="size_S" title="Size S"></label>
+    <input class="size-input" type="radio" id="size_M" name="sizing" value="m" /><label for="size_M" title="Size M"></label>
+    <input class="size-input" type="radio" id="size_L" name="sizing" value="l" /><label for="size_L" title="Size L"></label>
   </fieldset>
 
 

@@ -1,0 +1,55 @@
+       <!--  Slider -->
+    <div class="cycle-slideshow"
+
+    data-cycle-timeout=0
+    data-cycle-prev=".cycle-prev"
+    data-cycle-next=".cycle-next"
+    >
+    	<div class="cycle-next"></div>
+    	<div class="cycle-prev"></div>
+        <img src="img/gamer_1.jpg" alt="Gamer">
+        <img src="img/gamer_2.jpg" alt="Gamer">
+        <img src="img/gamer_3.jpg" alt="Gamer">
+        <img src="img/gamer_4.jpg" alt="Gamer">
+        <img src="img/gamer_5.jpg" alt="Gamer">
+    	<img src="img/gamer_6.jpg" alt="Gamer">
+    </div>
+    <div class="gallery-wrapper s-out">
+      <figure class='responsive' data-media="img/gamer_1.jpg" title="Gamer">
+         <h6 class="price">
+             <span class="m-out">$<span class="line-through">19.99</span></span>
+             <span class="red">$19.99</span>
+         </h6>
+     </figure>
+     <figure class='responsive' data-media="img/gamer_2.jpg" title="Gamer">
+         <h6 class="price ">
+             <span class="ml-out">$<span class="line-through">19.99</span></span>
+             <span >$49.99</span>
+         </h6>
+     </figure>
+     <figure class='responsive' data-media="img/gamer_3.jpg" title="Gamer">
+         <h6 class="price">
+             <span class="ml-out">$<span class="line-through">19.99</span></span>
+             <span >$24.99</span>
+         </h6>
+     </figure>
+     <figure class='responsive' data-media="img/gamer_4.jpg" title="Gamer">
+         <h6 class="price ">
+             <span class="m-out">$<span class="line-through">19.99</span></span>
+             <span class="red">$19.99</span>
+         </h6>
+     </figure>
+     <figure class='responsive' data-media="img/gamer_5.jpg" title="Gamer">
+         <h6 class="price">
+             <span class="ml-out">$<span class="line-through">19.99</span></span>
+             <span >$60.00</span>
+         </h6>
+     </figure>
+     <figure class='responsive' data-media="img/gamer_6.jpg" title="Gamer">
+         <h6 class="price ">
+             <span class="ml-out">$<span class="line-through">19.99</span></span>
+             <span >$54.00</span>
+         </h6>
+     </figure> 
+    </div>
+    
