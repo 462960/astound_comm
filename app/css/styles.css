@@ -377,21 +377,24 @@ h6.like {
     .cycle-slideshow {
       display: none; } }
 
-h6.slider-price {
+.cycle-overlay {
   position: absolute;
   margin: 0;
   text-align: center;
   width: 100%;
-  bottom: 3px;
+  bottom: 0;
+  z-index: 101;
   -webkit-transition: bottom .5s;
   transition: bottom .5s;
   background: rgba(118, 192, 172, 0.7);
   font-size: 22px;
   font-weight: bold; }
-  h6.slider-price.slide-down {
-    bottom: -26px !important;
+  .cycle-overlay.price-down {
+    bottom: -30px !important;
     -webkit-transition: bottom .5s;
     transition: bottom .5s; }
+  .cycle-overlay > div:last-child {
+    color: #ce2c52; }
 
 .cycle-prev, .cycle-next {
   position: absolute;

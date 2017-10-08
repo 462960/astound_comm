@@ -7,12 +7,31 @@
     >
     	<div class="cycle-next"></div>
     	<div class="cycle-prev"></div>
-        <img src="img/gamer_1.jpg" alt="Gamer">
-        <img src="img/gamer_2.jpg" alt="Gamer">
-        <img src="img/gamer_3.jpg" alt="Gamer">
-        <img src="img/gamer_4.jpg" alt="Gamer">
-        <img src="img/gamer_5.jpg" alt="Gamer">
-    	<img src="img/gamer_6.jpg" alt="Gamer">
+        <div class="cycle-overlay"></div>
+        <img src="img/gamer_1.jpg" alt="Gamer"
+        data-cycle-title=""
+        data-cycle-desc="$19.99"
+        >
+        <img src="img/gamer_2.jpg" alt="Gamer"
+        data-cycle-title="$49.99"
+        data-cycle-desc=""
+        >
+        <img src="img/gamer_3.jpg" alt="Gamer"
+        data-cycle-title="$24.99"
+        data-cycle-desc=""
+        >
+        <img src="img/gamer_4.jpg" alt="Gamer"
+        data-cycle-title=""
+        data-cycle-desc="$19.99"
+        >
+        <img src="img/gamer_5.jpg" alt="Gamer"
+        data-cycle-title="$60.00"
+        data-cycle-desc=""
+        >
+    	<img src="img/gamer_6.jpg" alt="Gamer"
+        data-cycle-title="$54.00"
+        data-cycle-desc=""
+        >
     </div>
     <div class="gallery-wrapper s-out">
       <figure class='responsive' data-media="img/gamer_1.jpg" title="Gamer">

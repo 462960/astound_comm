@@ -400,19 +400,23 @@ h6.like {
   }
 }
 
-h6.slider-price {
+.cycle-overlay {
         position: absolute;
         margin: 0;
         text-align: center;
         width: 100%;
-        bottom: 3px;
+        bottom: 0;
+        z-index: 101;
         transition: bottom .5s;
         background: rgba(118, 192, 172,.7);
         font-size: 22px;
         font-weight: bold;
-         &.slide-down {
-    bottom: -26px !important;
+         &.price-down {
+    bottom: -30px !important;
     transition: bottom .5s;
+        }
+        & > div:last-child {
+          color: #ce2c52;
         } 
       }
 
