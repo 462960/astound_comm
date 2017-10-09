@@ -5,23 +5,6 @@
 		tee
 	</h4>
 	<figure class='responsive' data-media="img/hood.jpg" title="Hood">
-		<ul class="social social-column">
-			<li >
-				<a href="#" class="fb"></a>
-			</li>
-			<li >
-				<a href="#" class="twit"></a>
-			</li>
-			<li >
-				<a href="#" class="pin"></a>
-			</li>
-			<li >
-				<a href="#" class="you"></a>
-			</li>
-			<li >
-				<a href="#" class="ins"></a>
-			</li>
-		</ul>
 	</figure>
 	<div class="item-description-wrapper">
 		<h4 class="slogan sm-out">For gamers by gamers tee</h4>
@@ -31,7 +14,7 @@
 			<span class="line-through">29.50</span>
 			<span class="red">$19.99</span>
 		</h5>
-		<form action="post" class="to_cart">
+		<form action="post" id="701642853695" class="to_cart">
 			<div>
 				<fieldset class="stars">
 					<input type="radio" id="star5" name="rating" value="5" />
@@ -51,7 +34,7 @@
 					<div id="share-block">
 						<div class="share-with">Share with</div>
 						<div id="share-close"></div>
-						<ul class="social social-row social-center">
+						<ul class="social social-center">
 							<li >
 								<a href="#1" class="fb"></a>
 							</li>
@@ -71,7 +54,7 @@
 					</div>
 				</div>
 			</div>
-			<ul class="social social-row ml-out">
+			<ul class="social l-out">
 				<li >
 					<a href="#" class="fb"></a>
 				</li>
@@ -106,7 +89,7 @@
 				<label for="size_L" title="Size L"></label>
 			</fieldset>
 
-			<button type="submit">add to cart</button>
+			<button type="submit" form="701642853695">add to cart</button>
 		</form>
 	</div>
 
