@@ -1,67 +1,114 @@
 <div class="item-wrapper">
-	<h4 class="slogan ml-out">For gamers by gamers <br/> tee</h4>
-	<h4 class="slogan sl-out">For gamers by gamers tee</h4>
+	<h4 class="slogan l-out">
+		For gamers by gamers
+		<br/>
+		tee
+	</h4>
 	<figure class='responsive' data-media="img/hood.jpg" title="Hood">
 		<ul class="social social-column">
-				<li ><a href="#" class="fb"></a></li>
-				<li ><a href="#" class="twit"></a></li>
-				<li ><a href="#" class="pin"></a></li>
-				<li ><a href="#" class="you"></a></li>
-				<li ><a href="#" class="ins"></a></li>
-			</ul>
+			<li >
+				<a href="#" class="fb"></a>
+			</li>
+			<li >
+				<a href="#" class="twit"></a>
+			</li>
+			<li >
+				<a href="#" class="pin"></a>
+			</li>
+			<li >
+				<a href="#" class="you"></a>
+			</li>
+			<li >
+				<a href="#" class="ins"></a>
+			</li>
+		</ul>
 	</figure>
 	<div class="item-description-wrapper">
 		<h4 class="slogan sm-out">For gamers by gamers tee</h4>
 		<div class="item-num">Item #: 701642853695</div>
-		<h5 class="price-holder">$<span class="line-through">29.50</span> <span class="red">$19.99</span></h5>
+		<h5 class="price-holder">
+			$
+			<span class="line-through">29.50</span>
+			<span class="red">$19.99</span>
+		</h5>
 		<form action="post" class="to_cart">
-		<div>
-			<fieldset class="stars">
-			    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Outstanding">5 stars</label>
-			    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Very Good">4 stars</label>
-			    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Good">3 stars</label>
-			    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Poor">2 stars</label>
-			    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Very Poor">1 star</label>
-			
-			  </fieldset>
-			  <div id="share" class="sm-out">
-			  	Share it
-			  	<div id="share-block">
-			  		<div class="share-with">Share with</div>
-			  		<div id="share-close"></div>
-			  		<ul class="social social-row social-center">
-				<li ><a href="#1" class="fb"></a></li>
-				<li ><a href="#2" class="twit"></a></li>
-				<li ><a href="#3" class="pin"></a></li>
-				<li ><a href="#4" class="you"></a></li>
-				<li ><a href="#5" class="ins"></a></li>
-			</ul>
-			  	</div>
+			<div>
+				<fieldset class="stars">
+					<input type="radio" id="star5" name="rating" value="5" />
+					<label for="star5" title="Outstanding">5 stars</label>
+					<input type="radio" id="star4" name="rating" value="4" />
+					<label for="star4" title="Very Good">4 stars</label>
+					<input type="radio" id="star3" name="rating" value="3" />
+					<label for="star3" title="Good">3 stars</label>
+					<input type="radio" id="star2" name="rating" value="2" />
+					<label for="star2" title="Poor">2 stars</label>
+					<input type="radio" id="star1" name="rating" value="1" />
+					<label for="star1" title="Very Poor">1 star</label>
+
+				</fieldset>
+				<div id="share" class="sm-out">
+					Share it
+					<div id="share-block">
+						<div class="share-with">Share with</div>
+						<div id="share-close"></div>
+						<ul class="social social-row social-center">
+							<li >
+								<a href="#1" class="fb"></a>
+							</li>
+							<li >
+								<a href="#2" class="twit"></a>
+							</li>
+							<li >
+								<a href="#3" class="pin"></a>
+							</li>
+							<li >
+								<a href="#4" class="you"></a>
+							</li>
+							<li >
+								<a href="#5" class="ins"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
-		</div>
 			<ul class="social social-row ml-out">
-				<li ><a href="#" class="fb"></a></li>
-				<li ><a href="#" class="twit"></a></li>
-				<li ><a href="#" class="pin"></a></li>
-				<li ><a href="#" class="you"></a></li>
-				<li ><a href="#" class="ins"></a></li>
+				<li >
+					<a href="#" class="fb"></a>
+				</li>
+				<li >
+					<a href="#" class="twit"></a>
+				</li>
+				<li >
+					<a href="#" class="pin"></a>
+				</li>
+				<li >
+					<a href="#" class="you"></a>
+				</li>
+				<li >
+					<a href="#" class="ins"></a>
+				</li>
 			</ul>
 			<h6 class="details sl-out">details:</h6>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie velit vitae metus tempus, ultricies facilisis ligula maximus. Etiam ultricies purus massa, sit amet vulputate nisi malesuada quis. Proin eu nunc non sem malesuada imperdiet quis nec nisl. Donec at laoreet nisl, ac ullamcorper metus.</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie velit vitae metus tempus, ultricies facilisis ligula maximus. Etiam ultricies purus massa, sit amet vulputate nisi malesuada quis. Proin eu nunc non sem malesuada imperdiet quis nec nisl. Donec at laoreet nisl, ac ullamcorper metus.
+			</p>
 			<h6 class="size l-out">Select a size:</h6>
 
-  <fieldset class="sizes">
-    <h6 class="size-l">size:</h6>
-    <input class="size-input" type="radio" id="size_XS" name="sizing" value="xs" /><label for="size_XS" title="Size XS"></label>
-    <input class="size-input" type="radio" id="size_S" name="sizing" value="s" /><label for="size_S" title="Size S"></label>
-    <input class="size-input" type="radio" id="size_M" name="sizing" value="m" /><label for="size_M" title="Size M"></label>
-    <input class="size-input" type="radio" id="size_L" name="sizing" value="l" /><label for="size_L" title="Size L"></label>
-  </fieldset>
-
+			<fieldset class="sizes">
+				<h6 class="size-l">size:</h6>
+				<input class="size-input" type="radio" id="size_XS" name="sizing" value="xs" />
+				<label for="size_XS" title="Size XS"></label>
+				<input class="size-input" type="radio" id="size_S" name="sizing" value="s" />
+				<label for="size_S" title="Size S"></label>
+				<input class="size-input" type="radio" id="size_M" name="sizing" value="m" />
+				<label for="size_M" title="Size M"></label>
+				<input class="size-input" type="radio" id="size_L" name="sizing" value="l" />
+				<label for="size_L" title="Size L"></label>
+			</fieldset>
 
 			<button type="submit">add to cart</button>
 		</form>
 	</div>
-	
+
 </div>
 <h6 class="like">You may also like</h6>

@@ -14,7 +14,6 @@ body {
   max-width: 835px;
   min-width: $bp-small;
   margin: 0 auto;
-  /* border: 1px solid red; */
   @media (min-width: $bp-small-plus) {
     padding: 0 35px;
   }
@@ -31,7 +30,6 @@ h2 {
 /*--------------------------------------------- Item--------------------------------------------- */
 .item-wrapper {
   overflow: hidden;
-  /* border: 1px solid green; */
   h4.slogan {
     font-family: 'Oswald', sans-serif;
     font-size: 24px;
@@ -40,6 +38,7 @@ h2 {
     padding: 40px 40px 30px 40px;
     @media (min-width: $bp-small-plus){
       padding: 40px 40px 30px 0;
+      & > br {display: none;}
     }
      @media (min-width: $bp-tablet){
       padding: 0 0 20px;
@@ -102,7 +101,6 @@ ul.social {
 }
 
 .item-description-wrapper {
- /*  border: 1px solid red; */
   width:320px;
   margin: 0 auto;
   @media (min-width: $bp-small-plus){
