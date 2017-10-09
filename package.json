@@ -1,8 +1,8 @@
 {
-  "name": "sixt",
+  "name": "Astound",
   "version": "1.0.0",
-  "description": "Test for SixT",
-  "main": "index.js",
+  "description": "Astound_comm",
+  "main": "index.html",
   "scripts": {
     "test": "none"
   },

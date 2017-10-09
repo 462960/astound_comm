@@ -22,12 +22,6 @@ var sassbeautify = require('gulp-sassbeautify');
 // Pre-Development Tasks 
 // -----------------
 
-// Moves awesome-fonts to app/fonts before coding
-// gulp.task('awesome', function() {
-//     return gulp.src('bower_components/font-awesome/fonts/**.*')
-//         .pipe(gulp.dest('./app/fonts'));
-// });
-
 // Spritemaker
 gulp.task('sprite', function () {
   var spriteData = gulp.src('app/img/sprites/*.png').pipe(spritesmith({
