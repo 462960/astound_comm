@@ -186,6 +186,12 @@ ul.social {
     background: #fff;
     -webkit-box-shadow: 0px -3px 4px -1px rgba(0, 0, 0, 0.75);
     box-shadow: 0px -3px 4px -1px rgba(0, 0, 0, 0.75); }
+    #share #share-block.show-block {
+      opacity: 1;
+      -webkit-transform: translate(0);
+      transform: translate(0);
+      -webkit-transition: opacity 1s;
+      transition: opacity 1s; }
     #share #share-block:before {
       content: '';
       position: absolute;
@@ -211,13 +217,6 @@ ul.social {
       background-position: -171px -42px; }
     #share #share-block .social-center {
       margin: 0 15px; }
-
-.show-block {
-  opacity: 1 !important;
-  -webkit-transform: translate(0) !important;
-  transform: translate(0) !important;
-  -webkit-transition: opacity 1s;
-  transition: opacity 1s; }
 
 /* Stars raiting */
 fieldset.stars {
@@ -376,7 +375,7 @@ h6.like {
   font-size: 22px;
   font-weight: bold; }
   .cycle-overlay.price-down {
-    bottom: -30px !important;
+    bottom: -30px;
     -webkit-transition: bottom .5s;
     transition: bottom .5s; }
   .cycle-overlay > div:last-child {
@@ -449,10 +448,17 @@ h6.like {
       background: rgba(118, 192, 172, 0.7);
       font-size: 22px;
       font-weight: bold; }
-      .gallery-wrapper figure.responsive h6.price.slide-down {
-        bottom: -26px !important;
-        -webkit-transition: bottom .5s;
-        transition: bottom .5s; }
+      @media (max-width: 835px) {
+        .gallery-wrapper figure.responsive h6.price.slide-price {
+          bottom: -26px;
+          -webkit-transition: bottom .5s;
+          transition: bottom .5s; } }
+      @media (min-width: 835px) {
+        .gallery-wrapper figure.responsive h6.price.slide-price {
+          bottom: 22px;
+          right: -100%;
+          -webkit-transition: right 1.5s;
+          transition: right 1.5s; } }
       @media (min-width: 835px) {
         .gallery-wrapper figure.responsive h6.price {
           padding: 0 12px;
@@ -467,12 +473,7 @@ h6.like {
             display: inline-block;
             margin-right: 13px; }
             .gallery-wrapper figure.responsive h6.price span:last-child {
-              margin-right: 0; }
-          .gallery-wrapper figure.responsive h6.price.slide-right {
-            bottom: 22px !important;
-            right: -100% !important;
-            -webkit-transition: right 1.5s;
-            transition: right 1.5s; } }
+              margin-right: 0; } }
 
 /*  Footer */
 footer {

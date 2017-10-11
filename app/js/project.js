@@ -15,12 +15,12 @@ function shareMe(e){
 // Gallery images 
 function removePrice(){
  const priceTab = this.querySelector('h6.price');
- priceTab.classList.add('slide-down', 'slide-right');
+ priceTab.classList.add('slide-price');
 };
 
 function showPrice(){
  const priceTab = this.querySelector('h6.price');
- priceTab.classList.remove('slide-down', 'slide-right');
+ priceTab.classList.remove('slide-price');
 };
 // Slideshow images
 function priceDown(){

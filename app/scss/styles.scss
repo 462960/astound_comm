@@ -169,12 +169,16 @@ ul.social {
   left: -93px;
   opacity: 0;  
   transition: opacity 1s;
-  transform:translate(9999px);
-
+  transform: translate(9999px);
   width: 290px;
   height: 105px;
   background: #fff;
   box-shadow: 0px -3px 4px -1px rgba(0,0,0,0.75);
+  &.show-block {
+  opacity: 1;
+  transform:translate(0); 
+  transition: opacity 1s;
+}
   &:before {
     content: '';
     position: absolute;
@@ -202,11 +206,7 @@ ul.social {
   .social-center{margin: 0 15px;}
 }  
 }
-.show-block {
-  opacity: 1 !important;
-  transform:translate(0) !important; 
-  transition: opacity 1s;
-}
+
 /* Stars raiting */
 
  fieldset.stars {
@@ -399,8 +399,8 @@ h6.like {
         font-size: 22px;
         font-weight: bold;
          &.price-down {
-    bottom: -30px !important;
-    transition: bottom .5s;
+          bottom: -30px;
+          transition: bottom .5s;
         }
         & > div:last-child {
           color: #ce2c52;
@@ -452,7 +452,7 @@ h6.like {
       &:nth-child(3n+1){
         float: right;
         margin-right: 0;
-    }
+      }
     } 
       h6.price {
         position: absolute;
@@ -464,10 +464,17 @@ h6.like {
         background: rgba(118, 192, 172,.7);
         font-size: 22px;
         font-weight: bold;
-         &.slide-down {
-    bottom: -26px !important;
-    transition: bottom .5s;
-        } 
+        &.slide-price {
+          @media (max-width: $bp-tablet){
+            bottom: -26px;
+            transition: bottom .5s;
+          }
+          @media (min-width: $bp-tablet){
+            bottom: 22px;
+            right: -100%;
+            transition: right 1.5s;
+          }
+        }
         @media (min-width: $bp-tablet){
           padding: 0 12px; 
           font-size: 16px;
@@ -475,22 +482,14 @@ h6.like {
           background: #8ae6cf;
           right: 0;
           transition: right 1.5s;
+          width: auto;
          span {
           display: inline-block;
           margin-right: 13px;
           &:last-child{margin-right: 0;}
-       }
-          width: auto;
-           &.slide-right {
-                  bottom: 22px !important;
-                  right: -100% !important;
-                  transition: right 1.5s;
-                } 
+          }
         }
-
       } 
-     
-      
     }
   }
 
