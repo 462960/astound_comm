@@ -20,7 +20,7 @@ var sassbeautify = require('gulp-sassbeautify');
 
 
 // Pre-Development Tasks 
-// ----------------
+// ------------------
 
 // Spritemaker
 gulp.task('sprite', function () {
