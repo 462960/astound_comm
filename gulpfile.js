@@ -177,5 +177,6 @@ gulp.task('clean', function(callback) {
 gulp.task('clean:dist', function(callback) {
   del(['dist/**/*', '!dist/img', '!dist/img/**/*'], callback)
 });
+mn
 
 
